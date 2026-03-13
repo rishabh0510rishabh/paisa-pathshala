@@ -6,7 +6,7 @@ import {
   ChevronRight, Sparkles
 } from 'lucide-react'
 
-import TradeReelsContent from './components/TradeReelsContent'
+import TradeMachineContent from './components/TradeMachineContent'
 
 /* ══════════════════════════════════════════════════════
    PLACEHOLDER TABS  (to be replaced with real content)
