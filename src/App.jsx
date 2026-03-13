@@ -6,6 +6,8 @@ import {
   ChevronRight, Sparkles
 } from 'lucide-react'
 
+import TradeMachineContent from './components/TradeMachineContent'
+
 /* ══════════════════════════════════════════════════════
    PLACEHOLDER TABS  (to be replaced with real content)
 ══════════════════════════════════════════════════════ */
@@ -21,16 +23,6 @@ function TradeReelsContent({ coins, setCoins }) {
   )
 }
 
-function TradeMachineContent({ coins, setCoins }) {
-  return (
-    <div className="flex flex-col items-center justify-center h-64 gap-3 text-center px-6">
-      <BarChart2 size={52} className="text-brand-green animate-float" />
-      <p className="text-xl font-bold text-white">Trade Machine</p>
-      <p className="text-sm text-white/50">Paper trading simulator – coming soon!</p>
-      <span className="text-xs text-brand-yellow/70">Coins: {coins}</span>
-    </div>
-  )
-}
 
 function QuestContent({ coins, setCoins }) {
   return (
