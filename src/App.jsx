@@ -6,20 +6,11 @@ import {
   ChevronRight, Sparkles
 } from 'lucide-react'
 
+import TradeReelsContent from './components/TradeReelsContent'
+
 /* ══════════════════════════════════════════════════════
    PLACEHOLDER TABS  (to be replaced with real content)
 ══════════════════════════════════════════════════════ */
-
-function TradeReelsContent({ coins, setCoins }) {
-  return (
-    <div className="flex flex-col items-center justify-center h-64 gap-3 text-center px-6">
-      <PlayCircle size={52} className="text-brand-pink animate-float" />
-      <p className="text-xl font-bold text-white">Trade Reels</p>
-      <p className="text-sm text-white/50">Short video lessons – coming soon!</p>
-      <span className="text-xs text-brand-yellow/70">Coins: {coins}</span>
-    </div>
-  )
-}
 
 function TradeMachineContent({ coins, setCoins }) {
   return (
